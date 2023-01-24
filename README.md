@@ -7,7 +7,7 @@ class program
     
     static void Main(string[] args)
     {
-        var client = new TelegramBotClient("Токен ты где(Сюда надо вставить токен)");
+        var client = new TelegramBotClient("5913102327:AAEFt_zh-BdLRFdBfR6-AEZQVZEec3hxoaA");
         client.StartReceiving(Updata, Error);
         Console.ReadLine();
     }
